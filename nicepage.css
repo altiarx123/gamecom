@@ -36672,25 +36672,34 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header .u-sheet-1 {
-  min-height: 526px;
+ .u-header {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/wallpaperflare.com_wallpaper.jpg");
+  background-size: auto 120%;
+  background-position: 50% 50%;
 }
 
-.u-header .u-text-1 {
-  font-family: Poppins;
-  font-weight: 700;
-  font-size: 3.75rem;
-  margin: 165px 181px 0 14px;
+.u-header .u-sheet-1 {
+  min-height: 796px;
 }
 
 .u-header .u-image-1 {
   width: 132px;
   height: 132px;
-  margin: -369px auto 0 0;
+  margin: -8px auto 0 0;
+}
+
+.u-header .u-btn-1 {
+  border-style: solid;
+  margin: -100px 24px 0 auto;
+  padding: 0 8px;
+}
+
+.u-header .u-icon-1 {
+  font-size: 1.5em;
 }
 
 .u-header .u-menu-1 {
-  margin: -100px auto 0 221px;
+  margin: -42px 252px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -36704,41 +36713,40 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 
-.u-header .u-btn-1 {
-  border-style: solid;
-  margin: -38px 24px 0 auto;
-  padding: 0 8px;
-}
-
-.u-header .u-icon-1 {
-  font-size: 1.5em;
+.u-header .u-text-1 {
+  font-family: Poppins;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 140px 286px 0 0;
 }
 
 .u-header .u-text-2 {
   font-family: Poppins;
-  font-size: 1.5rem;
-  margin: 338px 274px 0 13px;
+  font-size: 1.875rem;
+  margin: 97px 274px 60px 13px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-text-1 {
-    margin-top: 164px;
-    margin-left: 0;
-    margin-right: 0;
+  .u-header .u-sheet-1 {
+    min-height: 750px;
   }
 
   .u-header .u-image-1 {
     width: 132px;
-    margin-top: -369px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -100px;
-    margin-left: 221px;
   }
 
   .u-header .u-btn-1 {
-    margin-top: -38px;
+    margin-top: -100px;
     margin-right: 0;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -42px;
+    margin-right: 252px;
+  }
+
+  .u-header .u-text-1 {
+    margin-right: 86px;
   }
 
   .u-header .u-text-2 {
@@ -36747,62 +36755,73 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 614px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -100px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -45px;
+    margin-right: 63px;
+  }
+
+  .u-header .u-text-1 {
+    width: auto;
+    margin-top: 115px;
+    margin-right: 0;
+  }
+
   .u-header .u-text-2 {
     width: auto;
-    margin-top: 296px;
+    margin-top: 33px;
     margin-right: 0;
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-text-1 {
-    font-size: 2.25rem;
-    width: auto;
-    margin-top: 108px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -233px;
+  .u-header .u-sheet-1 {
+    min-height: 530px;
   }
 
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -104px;
-    margin-right: 64px;
-    margin-left: auto;
+    margin-top: -45px;
+    margin-right: 63px;
   }
 
-  .u-header .u-btn-1 {
-    margin-top: -34px;
+  .u-header .u-text-1 {
+    font-size: 2.25rem;
+    margin-top: 115px;
   }
 
   .u-header .u-text-2 {
-    margin-top: 169px;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-text-1 {
-    font-size: 1.25rem;
-    margin-top: 79px;
-    margin-right: -7px;
-    margin-left: 7px;
+  .u-header .u-sheet-1 {
+    min-height: 310px;
   }
 
   .u-header .u-image-1 {
-    margin-top: -151px;
+    margin-top: -8px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -104px;
-    margin-right: 64px;
+    margin-right: 92px;
   }
 
-  .u-header .u-btn-1 {
-    margin-top: -34px;
+  .u-header .u-text-1 {
+    font-size: 1.5rem;
+    margin-top: 44px;
   }
 
   .u-header .u-text-2 {
     font-size: 0.875rem;
-    margin-top: 86px;
+    margin-top: 20px;
+    margin-bottom: 22px;
   }
 }
 .u-footer .u-sheet-1 {
